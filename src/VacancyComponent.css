@@ -1,0 +1,65 @@
+/* VacancyComponent.css */
+
+/* Apply the global body styles to the component */
+body, html {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    height: 100vh;
+    background: black;
+  }
+  
+  /* Styling for the main container */
+  .vacancy-container {
+    background: black;
+    color: white;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Styling for the HR management portal header */
+  .portal-header {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for the Add New Vacancy section */
+  .add-vacancy-section {
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for the Vacancies List section */
+  .vacancy-list-section {
+    /* Add any specific styling for the list section here */
+  }
+  
+  /* Styling for the table */
+  .vacancy-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .vacancy-table th, .vacancy-table td {
+    border: 1px solid white;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  /* Styling for buttons */
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  

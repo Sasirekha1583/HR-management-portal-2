@@ -1,0 +1,45 @@
+#app {
+    text-align: center;
+    background-color: black;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: black;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: black;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  
+  /* App.css */
+  
+  /* Style the NavLink for both active and non-active links */
+  .NavLink {
+    text-decoration: none; /* Remove underline */
+    color: black; /* Set text color to black */
+  }
+  
+  /* Style the NavLink for the active link */
+  .NavLink.active {
+    font-weight: bold; /* Example: Make the active link bold */
+    /* You can add more styles for the active link here */
+  }

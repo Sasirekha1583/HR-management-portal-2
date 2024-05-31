@@ -1,0 +1,83 @@
+/* styles.css */
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding:0;
+    background-image: url('hrmimg4.jpg');
+  background-size: cover; /* Adjust the image size to cover the entire element */
+  background-repeat: no-repeat;
+  }
+  
+  .container {
+    max-width: 800px;
+    background-color: black;
+    margin: 0 auto;
+    padding-top: 120px;
+   
+  }
+  
+  /* Landing Page styles */
+  .landing-page {
+    text-align: center;
+    
+    padding-top: 300px;
+  }
+  
+  .landing-page h2 {
+    font-size: 50px;
+    color: black;
+  }
+  
+  .landing-page p {
+    font-size: 25px;
+    color: black;
+    margin-top: 20px;
+  }
+  
+  .landing-page a {
+    display: inline-block;
+    margin: 20px;
+    padding: 15px 30px;
+    font-size: 18px;
+    text-decoration: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .landing-page a:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Footer styles (optional) */
+  .footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  /* Responsive styles (adjust as needed) */
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+  
+    .landing-page h2 {
+      font-size: 24px;
+    }
+  
+    .landing-page p {
+      font-size: 16px;
+    }
+  
+    .landing-page a {
+      margin: 10px;
+      padding: 10px 20px;
+      font-size: 16px;
+    }
+  }
+  
